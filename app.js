@@ -12,7 +12,7 @@ app.use(cors());
 
 // j'implémente la partie API
 app.get("/", (req,res) => {
-    res.send("youhou");
+    res.send("work");
 })
 
 app.use("/api", routes);
